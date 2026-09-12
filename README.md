@@ -1,6 +1,6 @@
 # USDCAD 1d OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-7_710_rows-blue)](https://getdata.finance/datasets/usdcad) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdcad)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-7_712_rows-blue)](https://getdata.finance/datasets/usdcad) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdcad)
 
 ### -> [**Download the full USDCAD dataset on getdata.finance**](https://getdata.finance/datasets/usdcad)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1d OHLCV** for **US Dollar / Canadian Dollar** (Forex)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdcad) · **7,710** `1d` rows in the full archive
+- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdcad) · **7,712** `1d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1d` sample updated in sync
 
-> **Sample on GitHub** · `USDCAD_1d.csv` (732 rows, `2024-05-05` -> `2026-09-09`, 81.25 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdcad)** — **7,710** `1d` rows (full `1m`: 9,133,625), **11 timeframes**, `2001-11-28` -> `2026-09-09`.
+> **Sample on GitHub** · `USDCAD_1d.csv` (732 rows, `2024-05-07` -> `2026-09-11`, 81.18 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdcad)** — **7,712** `1d` rows (full `1m`: 9,133,625), **11 timeframes**, `2001-11-28` -> `2026-09-11`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | US Dollar / Canadian Dollar · Forex | US Dollar / Canadian Dollar · Forex |
 | Timeframes | `1d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1d rows | 732 | **7,710** |
-| Size | 81.25 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usdcad) |
-| Period | `2024-05-05` -> `2026-09-09` | `2001-11-28` -> `2026-09-09` |
+| 1d rows | 732 | **7,712** |
+| Size | 81.18 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usdcad) |
+| Period | `2024-05-07` -> `2026-09-11` | `2001-11-28` -> `2026-09-11` |
 | File | `USDCAD_1d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/usdcad) |
 | Coverage report | — | [USDCAD coverage](https://getdata.finance/coverage/usdcad) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`USDCAD_1d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-05-05T00:00:00+00:00 | 1.36752 | 1.36879 | 1.36674 | 1.36875 | 4457.37076 |
-| 2024-05-06T00:00:00+00:00 | 1.36875 | 1.36927 | 1.36436 | 1.36657 | 120823.3619 |
 | 2024-05-07T00:00:00+00:00 | 1.36657 | 1.37365 | 1.3656 | 1.3723 | 150207.98036 |
 | 2024-05-08T00:00:00+00:00 | 1.3723 | 1.37523 | 1.36967 | 1.37112 | 138755 |
 | 2024-05-09T00:00:00+00:00 | 1.37112 | 1.37209 | 1.36545 | 1.36629 | 137546 |
+| 2024-05-10T00:00:00+00:00 | 1.36629 | 1.36755 | 1.36152 | 1.36546 | 135402 |
+| 2024-05-12T00:00:00+00:00 | 1.36546 | 1.36737 | 1.36546 | 1.3673 | 6967 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-04T00:00:00+00:00 | 1.37897 | 1.3872 | 1.37847 | 1.38315 | 194932 |
-| 2026-09-06T00:00:00+00:00 | 1.38271 | 1.38366 | 1.38268 | 1.3835 | 3506 |
-| 2026-09-07T00:00:00+00:00 | 1.3835 | 1.38415 | 1.38042 | 1.38042 | 122957 |
+| 2026-09-07T00:00:00+00:00 | 1.3835 | 1.38415 | 1.38042 | 1.38042 | 123189 |
 | 2026-09-08T00:00:00+00:00 | 1.38042 | 1.38147 | 1.37596 | 1.37762 | 202240 |
-| 2026-09-09T00:00:00+00:00 | 1.37762 | 1.37824 | 1.3774 | 1.37783 | 14406 |
+| 2026-09-09T00:00:00+00:00 | 1.37762 | 1.38204 | 1.37659 | 1.38047 | 168158 |
+| 2026-09-10T00:00:00+00:00 | 1.38047 | 1.38394 | 1.38011 | 1.38351 | 171919 |
+| 2026-09-11T00:00:00+00:00 | 1.38351 | 1.38838 | 1.38342 | 1.38688 | 251586 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **USDCAD** archive on **[getdata.finance](https://getdata.finance/datasets/usdcad)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **7,710** rows at `1d`, plus all other timeframes in the same ZIP.
+The complete **USDCAD** archive on **[getdata.finance](https://getdata.finance/datasets/usdcad)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **7,712** rows at `1d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full USDCAD dataset on getdata.finance](https://getdata.finance/datasets/usdcad)**
 
